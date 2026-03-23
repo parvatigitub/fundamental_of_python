@@ -32,8 +32,27 @@ print(id(name))
 ##  DATA TYPES ##
 #Defination of data types
 # ans :data types is defined which kind of value is stored in the memory .
-num=10
-print(type(num))
+
+num=10     # dono ka variable name same hai but value different memory location par store hua hai 
+print(id(num))  # mean ki number inmutable hai sab variable hone par bhi diffrenet memory use karega 
+# output: 140733796087192
+
+num=20      # dono ka variable name same hai but value different memory location par store hua hai 
+print(id(num))  # mean ki number inmutable hai same variable hone par bhi diffrenet memory use karega ..
+# output: 140733796087512
+
+a="parvati"  # dono ka value same hai different variable hai toh memory location same hoga
+print(id(a))  # different variable hai memory ka  address same rahega a variable bhi use value 
+              # ko memory se le kar aayega aur b variable bhi wahi memory se value le kar aayega .
+#output:2357269107776
+
+
+b="parvati"  # dono ka value same hai different variable hai toh memory location same hoga.
+print(id(b))  # different variable hai memory ka  address same rahega a variable bhi use value 
+              # ko memory se le kar aayega aur b variable bhi wahi memory se value le kar aayega .
+#output:2357269107776
+# varible diffrent hone par memory location diffrent nhi ager value same hai to same address rahega .
+
 
 a = 10        # int
 b = 10.5      # float
