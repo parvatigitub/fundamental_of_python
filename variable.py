@@ -26,15 +26,37 @@ name="parvati"  # ye variale me string value store kiya gaya hai
 print(id(name))
 #output: (parvati) 1970972398656  ye id hai memory me jaha par value store kiya gaya hai
 
+
+
+
 ##  DATA TYPES ##
 #Defination of data types
 # ans :data types is defined which kind of value is stored in the memory .
 num=10
 print(type(num))
+
+a = 10        # int
+b = 10.5      # float
+c = 2 + 3j    # complex
+print(type(a))
+print(type(b))
+print(type(c))
 #output: <class 'int'>   interger value store kiya hai memory me 
 
 name="parvati"
 print(type(name))
 #output: <class 'str'>   string value store kiya hai memory me 
 
+# there are the two types of data types:
+# 1.Mutable  ->  jo value change ho sake 
+# 2.Immutable  ->  jo value change nahi ho sake 
+# In mutable data type list
+# dict
+# set are mutable
 
+
+# In immutable data type int
+# float,
+# bool
+# str
+# tuple are immutable
