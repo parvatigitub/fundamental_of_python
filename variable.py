@@ -16,12 +16,25 @@ print(num)
 # in memory how to store the value
 #Memory:
 #[10]  ← object
-#x ----> 10
+#x ----> 10  is int type 
 
 num=30  #same variable me different value store karenge toh pehle wala value override ho jayega
 print(num)
 #output: 30
 
 name="parvati"  # ye variale me string value store kiya gaya hai
-print(name)
-#output: parvati
+print(id(name))
+#output: (parvati) 1970972398656  ye id hai memory me jaha par value store kiya gaya hai
+
+##  DATA TYPES ##
+#Defination of data types
+# ans :data types is defined which kind of value is stored in the memory .
+num=10
+print(type(num))
+#output: <class 'int'>   interger value store kiya hai memory me 
+
+name="parvati"
+print(type(name))
+#output: <class 'str'>   string value store kiya hai memory me 
+
+
